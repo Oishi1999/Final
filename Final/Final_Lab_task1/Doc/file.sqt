@@ -1,0 +1,9 @@
+create table `lab task`.users
+(
+    name     varchar(30) null,
+    username varchar(20) not null
+        primary key,
+    password varchar(30) null,
+    email    varchar(20) null,
+    phoneNumber   varchar(200) null
+);
